@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Search from "./Search.js";
+import Search from "./Search";
 import "./Banner.css";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";

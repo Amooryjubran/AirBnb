@@ -1,0 +1,161 @@
+.SearchInformation {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+.SearchInformation__location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchInformation__Left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.SearchInformation__right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+h2 span {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.SearchInformation__images {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.SearchInformation__images > div {
+  cursor: pointer;
+  height: 230px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.SearchInformation__images > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.SearchInformation__images > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.SearchInformation__images > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+
+.SearchInformation__images > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.SearchInformation__images > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.bg1 {
+  background: url("https://i.ibb.co/dBLbrRV/bg1.jpg");
+  color: #fff;
+  border-radius: 10px;
+}
+
+.bg2 {
+  background: url("https://i.ibb.co/Fb5jb3J/bg2.jpg");
+  color: #333;
+  border-radius: 10px;
+}
+
+.Search__info {
+  margin-top: 40px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Search__info div {
+  height: 30%;
+}
+.two {
+  width: 40%;
+}
+.Search__info .Search__info__left,
+.Search__info .two {
+  height: 45%;
+}
+.left {
+  width: 60%;
+}
+.Search__info__left {
+  display: flex;
+  justify-content: space-between;
+}
+.Search__info__left > img {
+  border-radius: 50%;
+  height: 50px;
+}
+.Search__info__container > h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.Search__info__left > h3 {
+  border-bottom: 1px solid #333;
+}
+
+.entire_home {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.entie_home_text {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.entie_home_text > p {
+  font-size: 1rem;
+}
+
+.home {
+  margin-top: 20px;
+}
+
+hr {
+  opacity: 0.5;
+  color: lightgrey;
+}
+
+.sleeping__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.sleeping {
+}

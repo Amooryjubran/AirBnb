@@ -1,17 +1,21 @@
 import React from "react";
 import "./App.css";
-import Footer from "./Footer";
-import Header from "./Header";
-import Home from "./Home";
-import SearchPage from "./SearchPage";
+import Footer from "./Components/Layout/Footer";
+import Navbar from "./Components/Layout/Navbar";
+import Home from "./Components/Home/Home";
+import SearchPage from "./Components/Pages/Search/SearchPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SearchInfo from "./Components/Pages/Results/SearchInfo";
 function App() {
   return (
     <div className="app">
       <Router>
-        <Header />
+        <Navbar />
 
         <Switch>
+          <Route path="/search/test">
+            <SearchInfo />
+          </Route>
           <Route path="/search">
             <SearchPage />
           </Route>

@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchPage.css";
 import SearchResult from "./SearchResult";
 import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function SearchPage() {
   return (
@@ -9,7 +10,10 @@ function SearchPage() {
       <div className="searchPage__info">
         <p>62 stays . 26 auguest to 30 august . 2 guest</p>
         <h1>Stays nearby</h1>
-        <Button variant="outlined">Cancellation Flexibility</Button>
+        <Link to="/search/test">
+          <Button variant="outlined">Cancellation Flexibility</Button>
+        </Link>
+
         <Button variant="outlined">Type of place</Button>
         <Button variant="outlined">Price</Button>
         <Button variant="outlined">Rooms and beds</Button>
