@@ -16,3 +16,10 @@
   text-transform: inherit;
   margin: 5px;
 }
+
+.Link {
+  text-decoration: none !important;
+}
+.Link:visited {
+  color: black;
+}
