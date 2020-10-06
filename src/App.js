@@ -3,9 +3,9 @@ import "./App.css";
 import Footer from "./Components/Layout/Footer";
 import Navbar from "./Components/Layout/Navbar";
 import Home from "./Components/Home/Home";
-import SearchPage from "./Components/Pages/Search/SearchPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SearchInfo from "./Components/Pages/Results/SearchInfo";
+
+import FilmsContainer from "./Components/Pages/Searches/FilmsContainer";
 function App() {
   return (
     <div className="app">
@@ -13,12 +13,7 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path="/search/test">
-            <SearchInfo />
-          </Route>
-          <Route path="/search">
-            <SearchPage />
-          </Route>
+          <Route path="/Results" render={() => <FilmsContainer />} />
           <Route path="/">
             <Home />
           </Route>
