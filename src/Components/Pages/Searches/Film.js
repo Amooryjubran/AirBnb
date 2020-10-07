@@ -9,6 +9,7 @@ import SingleBedIcon from "@material-ui/icons/SingleBed";
 import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
 import FastfoodIcon from "@material-ui/icons/Fastfood";
 import Brightness5Icon from "@material-ui/icons/Brightness5";
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 
 export const Film = (props) => {
   const [showSearch, setShowSearch] = useState(false);
@@ -16,10 +17,9 @@ export const Film = (props) => {
     <>
       <div>
         <Link className="back" to="/Results">
-          Back
+          <ChevronLeftIcon />
         </Link>
       </div>
-
       <div className="SearchInformation">
         <h1>{props.name}</h1>
         <div className="SearchInformation__location">

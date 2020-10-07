@@ -6,12 +6,12 @@
 }
 
 .back {
-  display: inline-block;
-  margin: 5px;
-  border: 1px solid lightgray;
-  padding: 3px 8px;
+  float: left;
+  padding: 5px;
   border-radius: 5px;
-  background-color: rgb(149, 216, 238);
+  margin-left: 25px;
+  opacity: 0.7;
+  color: #ff6167;
   text-decoration: none;
 }
 
