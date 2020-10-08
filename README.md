@@ -1,8 +1,8 @@
-## Live-Demo: https://dreamy-blackwell-4d66a6.netlify.app/
+## Live-Demo: https://boyka.netlify.app/
 
 \*\* This app uses :
 
-- Material Ui
-- React Router
 - React Js
-- React Date Picker
+- Material Ui
+- React Router Dom
+- React Date Picker + Date FNS
