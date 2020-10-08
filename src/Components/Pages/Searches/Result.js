@@ -11,7 +11,7 @@ import FastfoodIcon from "@material-ui/icons/Fastfood";
 import Brightness5Icon from "@material-ui/icons/Brightness5";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 
-export const Film = (props) => {
+export const Result = (props) => {
   const [showSearch, setShowSearch] = useState(false);
   return (
     <>
@@ -39,36 +39,36 @@ export const Film = (props) => {
 
         <div className="SearchInformation__images">
           <div style={{ backgroundImage: `url(${props.imageUrl})` }}>
-            <h2>{props.degree} &deg;</h2>
+            <h2 className="h2">{props.degree} &deg;</h2>
             <p>Temperature</p>
           </div>
           <div style={{ backgroundImage: `url(${props.imageUrl2})` }}>
-            <h2>
+            <h2 className="h2">
               <FastfoodIcon className="emoji" />
             </h2>
             <p>{props.food}</p>
           </div>
           <div style={{ backgroundImage: `url(${props.imageUrl3})` }}>
-            <h2>
+            <h2 className="h2">
               {props.wind} <span>mph</span>
             </h2>
             <p>Wind</p>
           </div>
 
           <div style={{ backgroundImage: `url(${props.imageUrl4})` }}>
-            <h2>Sunshine</h2>
+            <h2 className="h2">Sunshine</h2>
             <p>
               <Brightness5Icon className="emoji" />
             </p>
           </div>
           <div style={{ backgroundImage: `url(${props.imageUrl5})` }}>
-            <h2>
+            <h2 className="h2">
               <FitnessCenterIcon className="emoji" />
             </h2>
             <p>Workouts</p>
           </div>
           <div style={{ backgroundImage: `url(${props.imageUrl6})` }}>
-            <h2>
+            <h2 className="h2">
               {props.reviewed} <span>%</span>
             </h2>
             <p>Reviewed</p>
@@ -174,4 +174,4 @@ export const Film = (props) => {
   );
 };
 
-export default Film;
+export default Result;

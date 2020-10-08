@@ -31,7 +31,7 @@ function Search() {
         <PeopleIcon />
       </h2>
       <input type="number" min={0} defaultValue={2} />
-      <Button onClick={() => history.push("/Results")}>Search Airbnb</Button>
+      <Button onClick={() => history.push("/Results")}>Search Boyka</Button>
     </div>
   );
 }

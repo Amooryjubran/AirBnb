@@ -1,4 +1,4 @@
-export const FilmsList = [
+export const ResultsList = [
   {
     img:
       "https://a0.muscache.com/im/pictures/ba85bc18-6acd-4106-b11d-01c7d440a31a.jpg?im_w=960",

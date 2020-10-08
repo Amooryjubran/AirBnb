@@ -109,13 +109,13 @@
   gap: 2rem;
 }
 
-h2 {
+.h2 {
   font-size: 45px;
   font-weight: 300;
   margin: 10px;
 }
 
-h2 span {
+.h2 span {
   font-size: 30px;
 }
 
