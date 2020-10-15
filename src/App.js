@@ -11,7 +11,6 @@ function App() {
     <div className="app">
       <Router>
         <Navbar />
-
         <Switch>
           <Route path="/Results" render={() => <ResultsContainer />} />
           <Route path="/">

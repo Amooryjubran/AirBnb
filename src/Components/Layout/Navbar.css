@@ -42,3 +42,10 @@
   width: 15vw;
   margin-right: 80px;
 }
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    position: relative;
+  }
+}
