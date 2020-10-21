@@ -1,4 +1,4 @@
-.actor-image {
+.search__container {
   width: 250px;
   height: 250px;
   background-size: cover;
@@ -110,7 +110,7 @@
 }
 
 .h2 {
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 300;
   margin: 10px;
 }
@@ -335,4 +335,43 @@ form > input {
 }
 .Link:visited {
   color: black;
+}
+
+@media screen and (max-width: 740px) {
+  .searchPage__info {
+    text-align: center;
+  }
+  .searchResult__infoTop {
+    width: 40vh;
+  }
+  .searchResult {
+    flex-direction: column;
+    align-items: center;
+  }
+  .searchResult__heart {
+    display: none !important;
+  }
+  .searchResults__price {
+    position: static;
+  }
+  .searchResult__infoBottom {
+    flex-direction: column;
+  }
+  .Search__Button {
+    padding: 220px;
+  }
+  .searchResults__price > p {
+    text-align: left;
+  }
+  .h2 {
+    font-size: 24px;
+    margin: 5px 0 5px 0;
+  }
+  .search__images {
+    width: 250px;
+  }
+  .searchResult__infoTop > p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }

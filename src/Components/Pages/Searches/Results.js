@@ -10,7 +10,7 @@ const Results = (props) => {
   let results = ResultsList.map((result) => {
     return (
       <>
-        <div className="actor-container">
+        <div className="search__Container">
           <div className="searchResult">
             <Link to={`/Results/${result.url}`}>
               <img className="search__images" src={result.img} alt="" />
